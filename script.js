@@ -5,10 +5,10 @@ const resultEl = document.getElementById("result");
 function calculateAge() {
   const birthdayValue = birthdayEl.value;
   if (birthdayValue === "") {
-    alert("Masukin dulu tanggal lahir kamu yaa :3");
+    alert("Masukin tanggal lahirnya dulu!😠");
   } else {
     const age = getAge(birthdayValue);
-    resultEl.innerText = `Umur kamu ${age} ${age > 1 ? "tahun" : "tahun"} `;
+    resultEl.innerText = `Umur kamu ${age} ${age > 1 ? "tahun!🥳" : "tahun!🥳"} `;
     
   }
 }
